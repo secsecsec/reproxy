@@ -1,0 +1,5 @@
+substitutions:
+  - pattern: "foo"
+    replace_with: "bar"
+  - pattern: "baz"
+    replace_with: "qux"
