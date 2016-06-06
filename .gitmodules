@@ -1,0 +1,6 @@
+[submodule "vendor/github.com/elazarl/goproxy"]
+	path = vendor/github.com/elazarl/goproxy
+	url = https://github.com/elazarl/goproxy.git
+[submodule "vendor/github.com/rogpeppe/go-charset"]
+	path = vendor/github.com/rogpeppe/go-charset
+	url = http://github.com/rogpeppe/go-charset.git

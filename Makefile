@@ -1,10 +1,10 @@
 .PHONY: build build-arm run
 
 build:
-	go build
+	env GO15VENDOREXPERIMENT=1 go build
 
 build-arm:
-	env GOOS=linux GOARCH=arm go build
+	env GO15VENDOREXPERIMENT=1 GOOS=linux GOARCH=arm go build
 
 run:
 	go run
